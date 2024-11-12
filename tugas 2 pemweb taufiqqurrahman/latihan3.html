@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>latihan form html</title>
+</head>
+<body bgcolor="#AFEEEE">
+  <form name="formulir">
+    <table align="center" celpadding="10" width="50%">
+      <thead>
+        <tr bgcolor="pink">
+          <th colspan="2">FORMULIR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nama</td>
+          
+          <td><input type="text" name="nama" value="isi nama anda"/></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td> <input type="Password" name="Password" value="isi nama anda"/></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="jenis kelamin" value="L" checked/>Laki-Laki
+            &nbsp;
+            <input type="radio" name="jenis kelamin" value="P" />Perempuan
+          </td>
+        </tr>
+         <tr>
+          <td valign="top"> Hoby</td>
+          <td>
+            <input type="checkbox" name="hb" value="memasak" />Memasak <br/>
+            <input type="checkbox" name="hb" value="Membaca" checked />Membaca<br/>
+            <input type="checkbox" name="hb" value="Menulis" />Menulis <br/>
+            <input type="checkbox" name="hb" value="olahraga" />olahraga <br/>
+
+          </td>
+        </tr>
+         <tr>
+          <td>Pendidikan </td>
+          <td>
+            <select nama="Pendidikan">
+              <option value="">-- pilih pendidikan terakhir --</option>
+              <option value="SMA">SMA</option>
+              <option value="D3">D3</option>
+              <option value="S1" selected>S1</option>
+              <option value="S2">S2</option>
+              <option value="S3">S3</option>
+            </select>
+          </td>
+        </tr>
+         <tr>
+          <td valign="top">Alamat</td>
+          <td>
+            <textarea name="alamat" cols="100" rows="10"></textarea>
+          </td>
+        </tr>
+              <tfoot>
+        <tr bgcolor="pink">
+          <th colspan="2">
+            <input type="reset" name="batal" value="batal"/>
+            &nbsp;
+            <input type="submit" name="simpan" value="simpan"/>
+          </th>
+        </tr>
+      </tfoot>
+      </tbody>
+      
+    </table>
+  </form>
+  
+  
+
+</body>
+</html>
